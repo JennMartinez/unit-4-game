@@ -4,19 +4,21 @@
     <meta charset="utf-8" />
     <title>Crystal Game</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
 
 
         <h1>Crystals Collector!</h1>
 
-        <div id="instructions">
+        <div class="instructions">
             <p>You will be given a random number at the start of the game.</p>
             
             <p>There are four crystals below. By clicking on a crystal you 
                 will add a specific amount of points to your total score.</p>
             
-            <p>You win the game by matching your total score to random 
+            <p>You win the game by matching your total score to a random 
                 number, you lose the game if your total score goes above 
                 the random number.</p>
             
@@ -27,19 +29,14 @@
                 values of each crystal.</p>
         </div>
 
-        <div> 
-            <div id="random">
-                <p>39</p>
-            </div>
-            
-            <div id="counter">
-                <p>Wins: 0</p>
-                <p>Losses: 0</p>
-            </div>
-        </div>
+        <div class="randomNumber"></div>
 
+        <div class="counter">
+            <div id="wins">Wins:</div>
+            <div id="losses">Losses:</div>
+        </div>
+           
         <div class="crystals">
-            
             <div id="green">
                 <img src="assets/images/green_crystal.jpg" alt="green crystal">
             </div>
@@ -52,17 +49,15 @@
             <div id="purple">
                 <img src="assets/images/purple_crystal.jpg" alt="purple crystal">
             </div>
-
         </div>
 
-        <div id="total">
-            <p>Your total score is:</p>
-        </div>
-
-        <div id="score">
-            <p>0</p>
+        <div class="scores">
+            <div id="textOnScreen">Your Total Score Is:</div>
+            <div id="totalScore"></div>
         </div>
     
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
 </body>
 </html>
