@@ -29,47 +29,31 @@ var score = document.querySelector("#totalScore");
 $("#purple").on("click", function() {
     totalScore = totalScore + crystalValue[0];
     console.log(totalScore);
+// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#blue").on("click", function() {
     totalScore = totalScore + crystalValue[1];
     console.log(totalScore);
+// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#yellow").on("click", function() {
     totalScore = totalScore + crystalValue[2];
     console.log(totalScore);
+// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#green").on("click", function() {
     totalScore = totalScore + crystalValue[3];
     console.log(totalScore);
+// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
-
-// The player WINS if their score EQUALS the random number generated at the beginning //
-// The game should store the player's wins and losses //
-
-// if (score === random) {
-//     wins++
-//     $("#wins").html(wins);
-//     resetGame();
-//     console.log(wins);
-// }
-
-// // The player LOSSES if their score IS NOT EQUAL to the random number generated at the beginning //
-
-// else if (score > random) {
-//         losses++
-//         $("#losses").html(losses);
-//         resetGame();
-//         console.log(score);
-
-// }
 // Restart the game after a WIN or LOSS //
 // The player's score counter will reset to zero //
 // A new random numeric value should generate at the start of a new game //
@@ -86,6 +70,8 @@ function resetGame() {
         console.log(crystalValue);  
     }
 
+// The player WINS if their score EQUALS the random number generated at the beginning //
+// The game should store the player's wins and losses //
     if (totalScore === random) {
         wins++;
         $("#wins").html("Wins: " + wins);
@@ -94,6 +80,7 @@ function resetGame() {
         console.log(wins);
     }
 
+// The player LOSSES if their score IS NOT EQUAL to the random number generated at the beginning //
     else if (totalScore > random) {
         losses++;
         $("#losses").html("Losses: " + losses);
