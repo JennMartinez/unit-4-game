@@ -22,28 +22,34 @@ resetGame();
 // Each of the four crystals will generate a random number, 1 - 12, //
 // The crystal's numeric value needs to stay visibly hidden //
 // When a crystal is clicked, the number assigned to the crystal will be added to the player's total score //
+// The value of the crystals is added to the total score //
 
 var score = document.querySelector("#totalScore");
 
 $("#purple").on("click", function() {
     totalScore = totalScore + crystalValue[0];
     console.log(totalScore);
+    $("#totalScore").html(totalScore);
 });
 
 $("#blue").on("click", function() {
     totalScore = totalScore + crystalValue[1];
     console.log(totalScore);
+    $("#totalScore").html(totalScore);
 });
 
 $("#yellow").on("click", function() {
     totalScore = totalScore + crystalValue[2];
     console.log(totalScore);
+    $("#totalScore").html(totalScore);
 });
 
 $("#green").on("click", function() {
     totalScore = totalScore + crystalValue[3];
     console.log(totalScore);
+    $("#totalScore").html(totalScore);
 });
+
 
 // The player WINS if their score EQUALS the random number generated at the beginning //
 // The game should store the player's wins and losses //
@@ -81,15 +87,17 @@ function resetGame() {
     }
 
     if (totalScore === random) {
-        wins++
-        $("#wins").html(wins);
+        wins++;
+        $("#wins").html("Wins: " + wins);
+        totalScore = 0;
         resetGame();
         console.log(wins);
     }
 
     else if (totalScore > random) {
-        losses++
-        $("#losses").html(losses);
+        losses++;
+        $("#losses").html("Losses: " + losses);
+        totalScore = 0;
         resetGame();
     }
 }
