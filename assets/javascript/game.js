@@ -75,19 +75,19 @@ function resetGame() {
     $(".randomNumber").html(random);
     console.log(random);
 
-    for(var i = 0; i < 4; i++) {
+    for (var i = 0; i < 4; i++) {
         crystalValue.push(Math.floor(Math.random()*(high-low+1)+low));
         console.log(crystalValue);  
     }
 
-    if (score === random) {
+    if (totalScore === random) {
         wins++
         $("#wins").html(wins);
         resetGame();
         console.log(wins);
     }
 
-    else if (score > random) {
+    else if (totalScore > random) {
         losses++
         $("#losses").html(losses);
         resetGame();
