@@ -29,6 +29,7 @@ var score = document.querySelector("#totalScore");
 $("#purple").on("click", function() {
     totalScore = totalScore + crystalValue[0];
     console.log(totalScore);
+// Generates the sum between the crystalValue and totalScore, after each each click //
     $("#totalScore").html(totalScore);
 });
 
