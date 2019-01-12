@@ -38,13 +38,13 @@ $("#blue").on("click", function() {
     $("#totalScore").html(totalScore);
 });
 
-$("#yellow").on("click", function() {
+$("#light").on("click", function() {
     totalScore = totalScore + crystalValue[2];
     console.log(totalScore);
     $("#totalScore").html(totalScore);
 });
 
-$("#green").on("click", function() {
+$("#white").on("click", function() {
     totalScore = totalScore + crystalValue[3];
     console.log(totalScore);
     $("#totalScore").html(totalScore);

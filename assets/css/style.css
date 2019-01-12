@@ -1,21 +1,21 @@
 body {
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/crystal_bkg.png");
     font-family: 'Iceland', cursive;
     max-width: 500px;
-    margin: auto;
+    margin-left: auto;
 }
 
 h1 {
     width: 450px;
     border: 3px solid black;
     padding: 15px;
-    margin: 15px;
     margin-bottom: 3px;
     text-align: center;
-    font-size: 45px; 
+    font-size: 47px; 
     background-color: rgb(97, 59, 202);  
     font-weight: bold;
-    opacity: .5;
+    opacity: .3;
+    margin-right: 3px;
 }
 
 .instructions {
@@ -24,14 +24,13 @@ h1 {
     border: 3px solid black;
     padding: 15px;
     padding-top: 1px;
-    margin: 15px;
     margin-top: 3px;
     margin-bottom: 2px;
     text-align: left;
     font-weight: bold;
     font-size: 17px;
     background-color:rgb(97, 59, 202);
-    opacity: .5;
+    opacity: .3;
 }
 
 .randomNumber {
@@ -41,17 +40,16 @@ h1 {
     padding: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
-    margin: 15px;
     margin-top: 2px;
-    margin-right: 2px;
     margin-bottom: 2px;
     text-align: center;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 47px;
     float: left;
     background-color: rgb(97, 59, 202);
-    opacity: .5;
+    opacity: .3;
     color: black;
+
 }
 
 #wins {
@@ -61,17 +59,16 @@ h1 {
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 3px;
-    margin-right: 50px;
     margin-top: 2px;
-    margin-left: 15px;
     margin-bottom: 5px;
     text-align: left;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     float: left;
     font-weight: bold;
     background-color: rgb(97, 59, 202);
-    opacity: .5;
+    opacity: .3;
+    margin-right: 18px;
 }
 
 #losses {
@@ -82,72 +79,72 @@ h1 {
     padding-top: 0px;
     padding-bottom: 3px;
     margin-top: 2px;
-    margin-left: 63px;
     margin-bottom: 5px;
     text-align: left;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     float: left;
     font-weight: bold;
     background-color: rgb(97, 59, 202);
-    opacity: .5;
+    opacity: .3;
+    margin-left: 95px;
 }
 
-#purple {
+#light {
     clear: both;
     float: left;
     margin-top: 2px;
-    margin-right: 29px;
     margin-bottom: 2px;
-    margin-left: 17px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+#purple {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 51px;
+}
+
+#white {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 51px;
 }
 
 #blue {
     float: left;
-    margin-top: 2px;
-    margin-right: 27px;
-    margin-bottom: 2px;
-    margin-left: 27px;
-}
-
-#yellow {
-    float: left;
-    margin-top: 2px;
-    margin-right: 30px;
-    margin-bottom: 2px;
-    margin-left: 29px;
-}
-
-#green {
-    float: left;
     margin-top: 3px;
     margin-bottom: 2px;
-    margin-left: 30px;
+    margin-right: 5px;
+    margin-left: 53px;
 }
 
 #textOnScreen {
     clear: both;
     font-weight: bold;
     width: 480px;
-    margin: 15px;
     margin-top: 5px;
     margin-bottom: 4px;
     border: 3px solid black;
     background-color: rgb(97, 59, 202);
     text-align: center;
-    font-size: 25px;
-    opacity: .5;
+    font-size: 27px;
+    opacity: .3;
 }
 
 #totalScore {
     font-weight: bold;
     width: 480px;
     height: 110px;
-    margin: 15px;
     margin-top: 4px;
     border: 3px solid black;
     text-align: center;
     background-color: rgb(97, 59, 202);
-    font-size: 45px;
-    opacity: .5;
+    font-size: 47px;
+    opacity: .3;
+    margin-bottom: 10px;
 }
