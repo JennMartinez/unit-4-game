@@ -29,30 +29,27 @@ var score = document.querySelector("#totalScore");
 $("#purple").on("click", function() {
     totalScore = totalScore + crystalValue[0];
     console.log(totalScore);
-// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#blue").on("click", function() {
     totalScore = totalScore + crystalValue[1];
     console.log(totalScore);
-// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#yellow").on("click", function() {
     totalScore = totalScore + crystalValue[2];
     console.log(totalScore);
-// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
 
 $("#green").on("click", function() {
     totalScore = totalScore + crystalValue[3];
     console.log(totalScore);
-// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
     $("#totalScore").html(totalScore);
 });
+// The total score will generate a sum by adding the two values (crystalValue and totalScore) after each click //
 
 // Restart the game after a WIN or LOSS //
 // The player's score counter will reset to zero //

@@ -15,6 +15,7 @@ h1 {
     font-size: 45px; 
     background-color: rgb(97, 59, 202);  
     font-weight: bold;
+    opacity: .5;
 }
 
 .instructions {
@@ -30,6 +31,7 @@ h1 {
     font-weight: bold;
     font-size: 17px;
     background-color:rgb(97, 59, 202);
+    opacity: .5;
 }
 
 .randomNumber {
@@ -48,6 +50,8 @@ h1 {
     font-size: 45px;
     float: left;
     background-color: rgb(97, 59, 202);
+    opacity: .5;
+    color: black;
 }
 
 #wins {
@@ -67,6 +71,7 @@ h1 {
     float: left;
     font-weight: bold;
     background-color: rgb(97, 59, 202);
+    opacity: .5;
 }
 
 #losses {
@@ -85,6 +90,7 @@ h1 {
     float: left;
     font-weight: bold;
     background-color: rgb(97, 59, 202);
+    opacity: .5;
 }
 
 #purple {
@@ -130,6 +136,7 @@ h1 {
     background-color: rgb(97, 59, 202);
     text-align: center;
     font-size: 25px;
+    opacity: .5;
 }
 
 #totalScore {
@@ -142,4 +149,5 @@ h1 {
     text-align: center;
     background-color: rgb(97, 59, 202);
     font-size: 45px;
+    opacity: .5;
 }
