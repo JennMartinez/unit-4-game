@@ -3,6 +3,8 @@ Crystal Game
 
 Instructions:
 
+https://jennmartinez.github.io/unit-4-game/
+
 - You will be given a random number at the start of the game.
 
 - There are four crystals below. By clicking on a crystal you 
